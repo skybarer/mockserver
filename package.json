@@ -1,0 +1,25 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -c src/config.json src/db.json"
+  },
+  "author": "Inkollu Akashdhar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "node-touch": "0.0.3"
+  },
+  "devDependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "client-sessions": "^0.8.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "json-server": "^0.14.2",
+    "nodemon": "^1.18.11",
+    "onchange": "^5.2.0"
+  }
+}
